@@ -1,0 +1,26 @@
+$background: linear-gradient(to right, #6eda78, #ffa200);
+$color: #ffa200;
+$color2: #6eda78;
+
+body {
+    background: $background;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading-container {
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #333;
+}
